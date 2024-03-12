@@ -7,7 +7,7 @@
 }
 
 section {
-    height: 1005;
+    height: 100%;
     background-color: #fff;
     padding-top: 70px;
 }
@@ -17,9 +17,10 @@ header {
     top: 0;
     left: 0;
     background-color: #ccc;
+    z-index: 100;
 }
 
-.produtos header {
+#produtos {
     position: relative;
     max-width: 100%;
     display: flex;
@@ -28,6 +29,29 @@ header {
     row-gap: 5%;
 }
 
-.inicio img {
-    width: 540px;
+#inicio {
+    display: flex;
+    justify-content: space-between;
+}
+
+#inicio img,
+#inicio h5 {
+    display: flex;
+    justify-content: space-between;
+    max-width: 640px;
+}
+
+form {
+    margin-left: 10px;
+    text-align: center;
+    max-width: 450px;
+}
+
+input {
+    margin-bottom: 8px;
+    text-align: center;
+}
+
+#contato {
+    background-color: #ccc; 
 }

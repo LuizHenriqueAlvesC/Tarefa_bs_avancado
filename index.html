@@ -7,9 +7,6 @@
     <title>Vale Periféricos</title>
     <link rel="stylesheet" href="lib/bootstrap.min.css">
     <link rel="stylesheet" href="main.css">
-    <style>
-
-    </style>
 </head>
 <body>
     <header>
@@ -19,79 +16,71 @@
                 <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-                <nav class=" navbar-collapse justify-content-end" id="menu">
-                    <ul class="nav navbar-nav nav-pills">
+                <nav class="navbar-collapse justify-content-end collapse" id="menu">
+                    <ul class="navbar-nav nav-pills">
                         <li class="nav-item">
-                            <a class="nav-link active" href="#">Início</a>
+                            <a class="nav-link active" href="#inicio">Início</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Produtos</a>
+                            <a class="nav-link" href="#produtos">Produtos</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Contato</a>
+                            <a class="nav-link" href="#contato">Contato</a>
                         </li>
                         <div class="btn-group">
-                            <button class="btn btn-secondary"data-bs-backdrop="static" data-bs-toggle="dropdown">
+                            <button class="btn btn-secondary" data-bs-backdrop="static" data-bs-toggle="dropdown">
                                 Cadastrar
-                                <ul class="dropdown-menu dropdown-menu-secondary">
-                                    <li class="dropdown-item">
-                                        <a href="#">Novo usuário</a>
-                                    </li>
-                                    <li class="dropdown-item">
-                                        <a href="#">Novo fornecedor</a>
-                                    </li>
-                                    <li class="dropdown-item">
-                                        <a href="#">Novo funcionário</a>
-                                    </li>
-                                </ul>
-                            </ul>
                             </button>
+                            <ul class="dropdown-menu dropdown-menu-secondary">
+                                <li class="dropdown-item">
+                                    <a href="#contato">Login</a>
+                                </li>
+                                <li class="dropdown-item">
+                                    <a href="#contato">Cadastrar</a>
+                                </li>
+                            </ul>
                         </div>
-                    </nav>
+                    </ul>
+                </nav>
             </div>
         </div>
     </header>
 
     <div data-bs-spy="scroll" data-bs-target="#cabecalho">
         <section id="inicio">
-            <h2>Início</h2>
             <div class="container">
+                <h2>Início</h2>
                 <div id="carousel-exemplo" class="carousel carousel-fade slide" data-bs-ride="carousel">
                     <div class="carousel-inner">
                         <div data-bs-interval="3000" class="carousel-item active">
                             <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2023/03/29/16/13/labrador-retriever-7885881_1280.jpg" />
-                            <div class="carousel-caption">
-                                <h2>Foto de um cachorro</h2>
-                            </div>
                         </div>
                         <div data-bs-interval="3000" class="carousel-item">
                             <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2024/03/05/10/38/boat-8614314_1280.jpg" />
-                            <div class="carousel-caption">
-                                <h2>Foto de um barco</h2>
-                            </div>
                         </div>
                         <div data-bs-interval="3000" class="carousel-item">
                             <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2023/04/11/13/27/bird-7917250_1280.jpg" />
-                            <div class="carousel-caption">
-                                <h2>Foto de um pato/h2>
-                            </div>
                         </div>
                     </div>
+                    <div>
+                        <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum iste velit eveniet architecto magnam placeat</h5>
+                    </div>
+                </div>
             </div>
         </section>
         <section id="produtos">
-            <h2>Produtos</h2>
             <div class="container">
+                <h2>Produtos</h2>
                 <nav class="nav nav-tabs">
-                    <button data-bs-toggle="tab" data-bs-target="#aba3" class="nav-link" type="button">Seu pc Gamer</button>
+                    <button data-bs-toggle="tab" data-bs-target="#aba1" class="nav-link active" type="button">Promoções</button>
                     <button data-bs-toggle="tab" data-bs-target="#aba2" class="nav-link" type="button">Periféricos</button>
-                    <button data-bs-toggle="tab" data-bs-target="#aba1" class="nav-link active" type="button">gabinetes</button>
+                    <button data-bs-toggle="tab" data-bs-target="#aba3" class="nav-link" type="button">Gabinetes</button>
                 </nav>
                 <div class="tab-content">
                     <div class="tab-pane active" id="aba1">
                         <div class="container">
                             <div class="row">
-                                <div class="col-2">
+                                <div class="col-3">
                                     <article class="card">
                                         <header class="card-header">
                                             Desenvolvimento web
@@ -106,51 +95,173 @@
                                         </div>
                                     </article>
                                 </div>
-                                <div class="row">
-                                    <div class="col-2">
-                                        <article class="card">
-                                            <header class="card-header">
-                                                Desenvolvimento web
-                                            </header>
-                                            <img src="https://via.placeholder.com/100x100" />
-                                            <div class="card-body">
-                                                <h4 class="card-title">Cards do Bootstrap</h4>
-                                                <P class="card-text">
-                                                    Conheça os Cards do Bootstrap e suas variações.
-                                                </P>
-                                                <a href="#" class="btn btn-success">Comprar</a>
-                                            </div>
-                                        </article>
-                                    </div>
-                                    <div class="row">
-                                        <div class="col-2">
-                                            <article class="card">
-                                                <header class="card-header">
-                                                    Desenvolvimento web
-                                                </header>
-                                                <img src="https://via.placeholder.com/100x100" />
-                                                <div class="card-body">
-                                                    <h4 class="card-title">Cards do Bootstrap</h4>
-                                                    <P class="card-text">
-                                                        Conheça os Cards do Bootstrap e suas variações.
-                                                    </P>
-                                                    <a href="#" class="btn btn-success">Comprar</a>
-                                                </div>
-                                            </article>
+                                <div class="col-3">
+                                    <article class="card">
+                                        <header class="card-header">
+                                            Desenvolvimento web
+                                        </header>
+                                        <img src="https://via.placeholder.com/100x100" />
+                                        <div class="card-body">
+                                            <h4 class="card-title">Cards do Bootstrap</h4>
+                                            <P class="card-text">
+                                                Conheça os Cards do Bootstrap e suas variações.
+                                            </P>
+                                            <a href="#" class="btn btn-success">Comprar</a>
                                         </div>
+                                    </article>
+                                </div>
+                                <div class="col-3">
+                                    <article class="card">
+                                        <header class="card-header">
+                                            Desenvolvimento web
+                                        </header>
+                                        <img src="https://via.placeholder.com/100x100" />
+                                        <div class="card-body">
+                                            <h4 class="card-title">Cards do Bootstrap</h4>
+                                            <P class="card-text">
+                                                Conheça os Cards do Bootstrap e suas variações.
+                                            </P>
+                                            <a href="#" class="btn btn-success">Comprar</a>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="col-3">
+                                    <article class="card">
+                                        <header class="card-header">
+                                            Desenvolvimento web
+                                        </header>
+                                        <img src="https://via.placeholder.com/100x100" />
+                                        <div class="card-body">
+                                            <h4 class="card-title">Cards do Bootstrap</h4>
+                                            <P class="card-text">
+                                                Conheça os Cards do Bootstrap e suas variações.
+                                            </P>
+                                            <a href="#" class="btn btn-success">Comprar</a>
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
                         </div>
                     </div>
                     <div class="tab-pane" id="aba2">
-                        
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-3">
+                                    <article class="card">
+                                        <header class="card-header">
+                                            Desenvolvimento web
+                                        </header>
+                                        <img src="https://via.placeholder.com/100x100" />
+                                        <div class="card-body">
+                                            <h4 class="card-title">Cards do Bootstrap</h4>
+                                            <P class="card-text">
+                                                Conheça os Cards do Bootstrap e suas variações.
+                                            </P>
+                                            <a href="#" class="btn btn-success">Comprar</a>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="col-3">
+                                    <article class="card">
+                                        <header class="card-header">
+                                            Desenvolvimento web
+                                        </header>
+                                        <img src="https://via.placeholder.com/100x100" />
+                                        <div class="card-body">
+                                            <h4 class="card-title">Cards do Bootstrap</h4>
+                                            <P class="card-text">
+                                                Conheça os Cards do Bootstrap e suas variações.
+                                            </P>
+                                            <a href="#" class="btn btn-success">Comprar</a>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="col-3">
+                                    <article class="card">
+                                        <header class="card-header">
+                                            Desenvolvimento web
+                                        </header>
+                                        <img src="https://via.placeholder.com/100x100" />
+                                        <div class="card-body">
+                                            <h4 class="card-title">Cards do Bootstrap</h4>
+                                            <P class="card-text">
+                                                Conheça os Cards do Bootstrap e suas variações.
+                                            </P>
+                                            <a href="#" class="btn btn-success">Comprar</a>
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                     <div class="tab-pane" id="aba3">
-                        
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-3">
+                                    <article class="card">
+                                        <header class="card-header">
+                                            Desenvolvimento web
+                                        </header>
+                                        <img src="https://via.placeholder.com/100x100" />
+                                        <div class="card-body">
+                                            <h4 class="card-title">Cards do Bootstrap</h4>
+                                            <P class="card-text">
+                                                Conheça os Cards do Bootstrap e suas variações.
+                                            </P>
+                                            <a href="#" class="btn btn-success">Comprar</a>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="col-3">
+                                    <article class="card">
+                                        <header class="card-header">
+                                            Desenvolvimento web
+                                        </header>
+                                        <img src="https://via.placeholder.com/100x100" />
+                                        <div class="card-body">
+                                            <h4 class="card-title">Cards do Bootstrap</h4>
+                                            <P class="card-text">
+                                                Conheça os Cards do Bootstrap e suas variações.
+                                            </P>
+                                            <a href="#" class="btn btn-success">Comprar</a>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="col-3">
+                                    <article class="card">
+                                        <header class="card-header">
+                                            Desenvolvimento web
+                                        </header>
+                                        <img src="https://via.placeholder.com/100x100" />
+                                        <div class="card-body">
+                                            <h4 class="card-title">Cards do Bootstrap</h4>
+                                            <P class="card-text">
+                                                Conheça os Cards do Bootstrap e suas variações.
+                                            </P>
+                                            <a href="#" class="btn btn-success">Comprar</a>
+                                        </div>
+                                    </article>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
         <section id="contato">
-            <h2>Contato</h2>
+            <div class="container">
+                    <h2>Contato</h2>
+                    <form>
+                        <label for="nome" class="form-label">Seu nome</label>
+                        <input type="text" class="form-control" id="nome"/>
+                        <label for="email" class="form-label">Seu e-mail</label>
+                        <input type="email" class="form-control" id="email"/>
+                        <label for="senha" class="form-label">Sua senha</label>
+                        <input type="password" class="form-control" id="senha"/>
+                        <label for="senha" class="form-label">Confirme sua senha</label>
+                        <input type="password" class="form-control" id="senha2"/>
+                    </form>
+                </div>
         </section>
     </div>
 

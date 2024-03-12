@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vale Periféricos</title>
+    <link rel="stylesheet" href="lib/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+    <style>
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="navbar navbar-expand-lg">
+            <div class="container">
+                <h1>Vale Periféricos</h1>
+                <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#menu">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <nav class=" navbar-collapse justify-content-end" id="menu">
+                    <ul class="nav navbar-nav nav-pills">
+                        <li class="nav-item">
+                            <a class="nav-link active" href="#">Início</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Produtos</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Contato</a>
+                        </li>
+                        <div class="btn-group">
+                            <button class="btn btn-secondary"data-bs-backdrop="static" data-bs-toggle="dropdown">
+                                Cadastrar
+                                <ul class="dropdown-menu dropdown-menu-secondary">
+                                    <li class="dropdown-item">
+                                        <a href="#">Novo usuário</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="#">Novo fornecedor</a>
+                                    </li>
+                                    <li class="dropdown-item">
+                                        <a href="#">Novo funcionário</a>
+                                    </li>
+                                </ul>
+                            </ul>
+                            </button>
+                        </div>
+                    </nav>
+            </div>
+        </div>
+    </header>
+
+    <div data-bs-spy="scroll" data-bs-target="#cabecalho">
+        <section id="inicio">
+            <h2>Início</h2>
+            <div class="container">
+                <div id="carousel-exemplo" class="carousel carousel-fade slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                        <div data-bs-interval="3000" class="carousel-item active">
+                            <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2023/03/29/16/13/labrador-retriever-7885881_1280.jpg" />
+                            <div class="carousel-caption">
+                                <h2>Foto de um cachorro</h2>
+                            </div>
+                        </div>
+                        <div data-bs-interval="3000" class="carousel-item">
+                            <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2024/03/05/10/38/boat-8614314_1280.jpg" />
+                            <div class="carousel-caption">
+                                <h2>Foto de um barco</h2>
+                            </div>
+                        </div>
+                        <div data-bs-interval="3000" class="carousel-item">
+                            <img class="d-block w-100" src="https://cdn.pixabay.com/photo/2023/04/11/13/27/bird-7917250_1280.jpg" />
+                            <div class="carousel-caption">
+                                <h2>Foto de um pato/h2>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+        </section>
+        <section id="produtos">
+            <h2>Produtos</h2>
+            <div class="container">
+                <nav class="nav nav-tabs">
+                    <button data-bs-toggle="tab" data-bs-target="#aba3" class="nav-link" type="button">Seu pc Gamer</button>
+                    <button data-bs-toggle="tab" data-bs-target="#aba2" class="nav-link" type="button">Periféricos</button>
+                    <button data-bs-toggle="tab" data-bs-target="#aba1" class="nav-link active" type="button">gabinetes</button>
+                </nav>
+                <div class="tab-content">
+                    <div class="tab-pane active" id="aba1">
+                        <div class="container">
+                            <div class="row">
+                                <div class="col-2">
+                                    <article class="card">
+                                        <header class="card-header">
+                                            Desenvolvimento web
+                                        </header>
+                                        <img src="https://via.placeholder.com/100x100" />
+                                        <div class="card-body">
+                                            <h4 class="card-title">Cards do Bootstrap</h4>
+                                            <P class="card-text">
+                                                Conheça os Cards do Bootstrap e suas variações.
+                                            </P>
+                                            <a href="#" class="btn btn-success">Comprar</a>
+                                        </div>
+                                    </article>
+                                </div>
+                                <div class="row">
+                                    <div class="col-2">
+                                        <article class="card">
+                                            <header class="card-header">
+                                                Desenvolvimento web
+                                            </header>
+                                            <img src="https://via.placeholder.com/100x100" />
+                                            <div class="card-body">
+                                                <h4 class="card-title">Cards do Bootstrap</h4>
+                                                <P class="card-text">
+                                                    Conheça os Cards do Bootstrap e suas variações.
+                                                </P>
+                                                <a href="#" class="btn btn-success">Comprar</a>
+                                            </div>
+                                        </article>
+                                    </div>
+                                    <div class="row">
+                                        <div class="col-2">
+                                            <article class="card">
+                                                <header class="card-header">
+                                                    Desenvolvimento web
+                                                </header>
+                                                <img src="https://via.placeholder.com/100x100" />
+                                                <div class="card-body">
+                                                    <h4 class="card-title">Cards do Bootstrap</h4>
+                                                    <P class="card-text">
+                                                        Conheça os Cards do Bootstrap e suas variações.
+                                                    </P>
+                                                    <a href="#" class="btn btn-success">Comprar</a>
+                                                </div>
+                                            </article>
+                                        </div>
+                        </div>
+                    </div>
+                    <div class="tab-pane" id="aba2">
+                        
+                    </div>
+                    <div class="tab-pane" id="aba3">
+                        
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="contato">
+            <h2>Contato</h2>
+        </section>
+    </div>
+
+    <script src="lib/bootstrap.bundle.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,33 @@
+.navbar-nav .nav-link.active {
+    color: #fff;
+}
+
+.nav-link {
+    text-align: center;
+}
+
+section {
+    height: 1005;
+    background-color: #fff;
+    padding-top: 70px;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    left: 0;
+    background-color: #ccc;
+}
+
+.produtos header {
+    position: relative;
+    max-width: 100%;
+    display: flex;
+    grid-template-columns: repeat(3, 32,3%);
+    column-gap: 2%;
+    row-gap: 5%;
+}
+
+.inicio img {
+    width: 540px;
+}

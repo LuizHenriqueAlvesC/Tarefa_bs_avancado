@@ -23,12 +23,16 @@ section {
     padding-top: 70px;
 }
 
+.cabecalho-menu {
+    background-color: #ccc;
+    z-index: 101;
+}
+
 header {
     position: sticky;
     top: 0;
     left: 0;
     background-color: #ccc;
-    z-index: 100;
 }
 
 section #inicio {
@@ -48,7 +52,8 @@ section #inicio {
 
 #inicio img {
     display: flex;
-    max-width: 640px;
+    max-width: 100%;
+    width: 460px;
 }
 
 form {

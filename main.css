@@ -28,6 +28,19 @@ section {
     z-index: 101;
 }
 
+#inicio .container {
+    display: flex;
+    align-items: center;
+}
+
+#inicio img {
+    width: 540px;
+}
+
+#inicio h2 {
+    margin-right: 20px;
+}
+
 header {
     position: sticky;
     top: 0;
@@ -63,4 +76,10 @@ input {
 
 #contato {
     background-color: #ccc; 
+}
+
+@media screen and (max-width="640px") {
+    #inicio img {
+        width: 220px;
+    }
 }

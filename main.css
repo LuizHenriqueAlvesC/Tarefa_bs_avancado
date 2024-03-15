@@ -50,12 +50,6 @@ section #inicio {
     display: flex;
 }
 
-#inicio img {
-    display: flex;
-    max-width: 100%;
-    width: 460px;
-}
-
 form {
     margin: 10px;
     text-align: center;
